@@ -1,9 +1,75 @@
-.navbar-brand {
-    background-color: bisque;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoEptranBG {
+    max-width: 100%;
     height: auto;
-    padding: 1, 5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    display: flex;
     justify-content: space-between;
-    gap: 1, 5px;
-    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-item1 {
+    margin-right: 20px;
+    color: #f21d2f;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item2 {
+    margin-right: 20px;
+    color: #023859;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item3 {
+    margin-right: 20px;
+    color: #f2b807;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item4 {
+    margin-right: 20px;
+    color: rgb(63, 138, 63);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (max-width: auto) {
+    .navbar-item {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: auto) {
+    .navbar-item {
+        margin-right: 5px;
+        font-size: 12px;
+    }
 }
