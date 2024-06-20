@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="Stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
-    
-    
+    <div class="container">
+        <form>
+            <h2>Login</h2>
+            <div class="input-wrapper">
+                <input type="email" id="emailInput" placeholder="Email">
+            </div>
+            <div class="input-wrapper password-input">
+                <input type="password" id="passwordInput" placeholder="Senha">
+                <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                    <i class="fas fa-eye-slash"></i>
+                </button>
+            </div>
+            <a href="#" id="forgotPasswordLink">Esqueceu a senha?</a>
+            <button type="submit" id="loginButton">Entrar</button>
+            <div class="language-select">
+                <label for="languageSelect" id="languageLabel">Selecione o idioma:</label>
+                <select id="languageSelect">
+                    <option value="pt">Português</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <script src="../script/login.js"></script>
 </body>
 </html>
