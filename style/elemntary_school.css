@@ -1,0 +1,111 @@
+.roundedSquare {
+    width: 400px; 
+    height: 953px; 
+    background-color: #023859; 
+    position: absolute;
+    border-top-right-radius: 10%;
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+  }
+  
+ .roundedSquare2 {
+    width: 450px; 
+    height: 160px; 
+    background-color: #F2F2F2;
+    border-radius: 50px; 
+    position: absolute; 
+    top: 0; 
+    left: -40px; 
+    z-index: 2; 
+  }
+  
+ .logoEptran {
+    width: 50%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50px; 
+    position: absolute;
+    top: 0;
+    left: 110px; 
+    z-index: 2;
+  }
+  
+ .textRecomendado {
+    position: absolute;
+    top: 180px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+ .textProposto {
+    position: absolute;
+    top: 260px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textRanking {
+    position: absolute;
+    top: 350px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textConfig {
+    position: absolute;
+    top: 430px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textNoti {
+    position: absolute;
+    top: 570px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textMensagem {
+    position: absolute;
+    top: 650px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textSair {
+    position: absolute;
+    top: 730px; 
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .textAjuda {
+    position: absolute;
+    top: 850px;
+    left: 70px; 
+    z-index: 3; 
+    color: #fff; 
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
