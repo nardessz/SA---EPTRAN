@@ -1,4 +1,4 @@
-# Trabalh-SA-senai
+# Trabalho-SA-Senai
 Este é o projeto final do curso técnico de Desenvolvimento de Sistemas do SENAI, orientado pelo professor Ícaro Botelho. No último ano (Turma Terceirão DS24 1/M2), desenvolvemos um site para a EPTRAN, um portal dedicado à segurança no trânsito de Joinville.
 
 Este projeto é de propriedade intelectual dos alunos e do SENAI, e está protegido sob as leis de direitos autorais. Qualquer uso não autorizado, reprodução ou distribuição do código fonte e outros materiais relacionados é estritamente proibido. O código deste projeto está disponível apenas para fins educacionais e não deve ser utilizado comercialmente sem permissão explícita.
