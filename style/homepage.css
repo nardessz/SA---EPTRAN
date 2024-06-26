@@ -5,17 +5,17 @@
 }
 
 .logoEptranBG {
-    max-width: 100%;
+    max-width: 150px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin-right: auto; /* Alinha à esquerda */
 }
 
 .navbar {
     background-color: #f2f2f2;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Espaça a logo e o menu */
     align-items: center;
     flex-wrap: wrap;
 }
@@ -23,35 +23,33 @@
 .navbar-menu {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens do menu */
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.navbar-item1, .navbar-item2, .navbar-item3, .navbar-item4 {
+    margin-right: 20px;
+    color: inherit;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-item1 {
-    margin-right: 20px;
     color: #f21d2f;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-item2 {
-    margin-right: 20px;
     color: #023859;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-item3 {
-    margin-right: 20px;
     color: #f2b807;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-item4 {
-    margin-right: 20px;
     color: rgb(63, 138, 63);
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-item:hover {
@@ -60,14 +58,14 @@
     color: #000000;
 }
 
-@media (max-width: auto) {
+@media (max-width: 768px) {
     .navbar-item {
         margin-right: 10px;
         font-size: 14px;
     }
 }
 
-@media (max-width: auto) {
+@media (max-width: 480px) {
     .navbar-item {
         margin-right: 5px;
         font-size: 12px;
@@ -77,14 +75,27 @@
 img {
     width: 150px;
     height: auto;
-    align-items: center;
-    justify-content: center;
 }
 
 .btRegister {
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 25px;
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #44474b; 
+    color: white;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
 }
+
+.btRegister:hover {
+    background-color: #577eaa; 
+}
+
+
