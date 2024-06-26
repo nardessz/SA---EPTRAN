@@ -87,15 +87,4 @@ img {
     padding: 10px;
     border-radius: 15px;
     box-shadow: 25px;
-    margin-left: 75px;
-    margin-top: 15px;
-}
-
-.imgEPTRAN {
-    align-items: center;
-    justify-content: center;
-    display: block;
-    margin: 70px;
-    width: 75px;
-    height: 75px;
 }
